@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.landing {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #efe5ff;
+}
+.title {
+  padding: 5px;
+  font-size: 65px;
+  font-family: 'Montserrat', sans-serif;
+}
+.btt {
+  height: 70px;
+  width: 250px;
+  margin: 12px;
+  border: 0px solid #b2b0c2;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #8685ef;
+}
+.btt:hover {
+  background-color: #8785ef67;
+  cursor: pointer;
+}
+.sub {
+  font-size: 35px;
+  padding: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+.bn {
+  padding: 30px;
+}
+
+.title {
+  animation: fadeIn 2s forwards;
+}
+
+.sub {
+  animation: fadeIn 2s forwards;
+}
+
+.bn {
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5em);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
